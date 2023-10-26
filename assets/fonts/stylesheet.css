@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MarkPro';
+    src: url('MarkPro-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('MarkPro-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url('MarkPro-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

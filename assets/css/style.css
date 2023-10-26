@@ -1,0 +1,54 @@
+@import url("../fonts/stylesheet.css");
+
+/* Tailwind 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Extra Dependency */
+@import 'owl.carousel/dist/assets/owl.carousel.css';
+@import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+@import 'lity/dist/lity.css';
+
+/* custom css */
+@layer base {
+  /* Global style */
+
+  *, ::before, ::after {
+    @apply box-border;
+  }
+
+  html {
+    @apply overflow-x-hidden;
+  }
+
+  a:hover,
+  a {
+    @apply no-underline;
+  }
+
+  ul {
+    @apply list-none m-0 p-0;
+  }
+
+  p, .p {
+    @apply font-fontbase;
+  }
+
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    @apply font-heading;
+  }
+
+  h5, .h5, h6, .h6 {
+    @apply font-fontbase;
+  }
+
+  button:focus, input:focus, img:focus, textarea:focus {
+    @apply outline-none !important;
+  }
+}
